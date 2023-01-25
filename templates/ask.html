@@ -1,0 +1,14 @@
+{% extends 'inc/base.html' %}
+{% load static %}
+{% load bootstrap5 %}
+
+{% block content %}
+    <form action="/ask/" method="post">
+        <div class="form-group">
+            <p class="h1"> Ask a question!</p>
+            {% csrf_token %}
+            {% bootstrap_form form %}
+        </div>
+        <button type="submit" class="btn btn-primary">Ask!</button>
+    </form>
+{% endblock content %}

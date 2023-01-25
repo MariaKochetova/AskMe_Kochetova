@@ -1,0 +1,15 @@
+{% load static %}
+<h2 class="mt-5"> Tags </h2>
+    <div class="tagcontainer">
+        {% for tag in tags %}
+           {% include "inc/single_tag.html" %}
+        {% endfor %}
+    </div>
+    <div style="margin-top: 300px">
+        <h2 class="members"> Best Members </h2>
+        <ul class="members_list">
+        {% for user in users %}
+            <li><a class="members_list_item" href="{% url "profile" user.user.id %}"> {{user.user.username}}</a></li>
+        {% endfor %}
+        </ul>
+    </div>

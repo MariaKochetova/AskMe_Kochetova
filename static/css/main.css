@@ -1,0 +1,316 @@
+body {
+    background-color: #FFF;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.question {
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 4px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.question_pg {
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 4px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.qw_pg_title {
+    color: blue;
+}
+
+.answer {
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 4px;
+    margin: 15px 15px 15px 40px;
+    padding: 10px;
+}
+
+.solution {
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.solution img {
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.avatar img {
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.counter {
+    width: 100px;
+    padding: 5px;
+    border: solid gray 2px;
+    border-radius: 4px;
+    height: 40px;
+    transition: 0.25s;
+}
+
+.counter:hover{
+    background-color: #f75252;
+    border: solid #f75252 1px;
+}
+
+.counter img{
+    height: 100%;
+    object-fit: fill;
+    margin-bottom: 10px;
+}
+
+.counter span{
+    font-size: 20px;
+    margin-left: 10px;
+    position: relative;
+    top: -10%;
+
+}
+
+.question_text {
+    max-height: 190px;
+    min-height: 10px;
+    overflow: hidden;
+}
+
+.tag_in_question {
+    padding: 2px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    max-width: 10px;
+    border: #146c43 solid 2px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+
+}
+
+.tag_in_question:hover {
+    background-color: #d1e7dd;
+    color: black;
+}
+
+.name_by_question{
+    text-decoration: none;
+    color: gray;
+    transition: 0.2s;
+}
+
+.name_by_question:hover{
+    color: blue;
+}
+
+.pub_date{
+    color: gray;
+}
+
+.question-meta {
+    height: 60px;
+}
+
+.answer_input_label {
+    font-size: 28px;
+}
+
+.blue-border-focus .form-control:focus {
+    border: 1px solid #8bc34a;
+    box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, .25);
+}
+
+.authorized {
+    height: 80%;
+    margin-left: 200px;
+    display: inline-flex;
+}
+
+.authorized a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.authorized a:hover {
+    color: #badbcc;
+}
+
+.avatar-auth {
+    width: 70px;
+    margin-right: 30px;
+}
+
+.avatar-auth img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.header-blue {
+    color: blue;
+    margin-top: 40px;
+}
+
+
+main > .container {
+    padding: 60px 15px 0;
+    margin-top: 20px;
+}
+
+
+form > .form-group {
+    margin-top: 40px;
+}
+
+#quest-text {
+    margin-bottom: 10px;
+}
+.members{
+    margin-top:50%
+}
+
+.tag {
+    background-color: white;
+    min-height: 45px;
+    text-align: center;
+    min-width: 90px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 3px;
+    float: left;
+    transition: 0.2s;
+}
+
+.tag a {
+    text-decoration: none;
+    color: black;
+}
+
+.tag:hover {
+    background-color: #d1e7dd;
+}
+
+.sign-in {
+    margin-top: 60px;
+}
+
+#customFile {
+    max-width: 300px;
+}
+
+.profile_info {
+    background-color: white;
+    padding: 20px;
+    border: gray;
+}
+
+.profile_avatar {
+    height: 200px;
+    width: 200px;
+}
+
+.profile_avatar img {
+     max-width: 100%;
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.profile_bio{
+    background-color: linen;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.reg_date {
+    font-size: 15px;
+}
+
+.answers_count {
+    font-size: 20px;
+}
+
+.members_list li::marker{
+    content: "\2605";
+    size: 10px;
+    margin-right: 5px;
+}
+
+.members_list_item{
+    text-decoration: none;
+    font-size: 25px;
+    color: #157347;
+}
+
+.members_list li > a:hover{
+    color: #0c4128;
+}
+
+.hot_recent_link{
+    margin-left: 20px;
+}
+
+.hot_recent_link a{
+    text-decoration: none;
+    color: blue;
+    transition: 0.2s;
+}
+
+
+.hot_recent_link a:hover{
+   color: #0c4128;
+}
+
+.not_found_code{
+    font-size: 100px;
+    color: #0c4128;
+}
+
+.not_found_msg{
+    text-decoration: none;
+    color: #0c4128;
+}
+
+.not_found{
+    margin-top: 250px;
+    margin-top: 250px;
+}
+
+.to_profile_link{
+    font-size: 30px;
+    text-decoration: none;
+    color: #0c4128;
+}
